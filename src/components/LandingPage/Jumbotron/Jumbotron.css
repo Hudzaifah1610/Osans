@@ -1,0 +1,197 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .jumbotron h1 {
+    position: relative;
+    top: 30px;
+    font-size: 35px;
+    font-weight: 100 !important;
+  }
+  .jumbotron p {
+    position: relative;
+    top: 30px;
+    font-size: 16px;
+    font-weight: 400 !important;
+  }
+  .jumbotron button {
+    position: relative;
+    top: 30px;
+  }
+  .jumbotron:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 150% !important;
+    background: linear-gradient(
+      to top,
+      rgb(48, 70, 70),
+      transparent
+    ) !important;
+    position: absolute;
+    bottom: 0;
+  }
+  .jumbotron {
+    height: 430px !important;
+  }
+  .jumbotron h1 {
+    line-height: 30px;
+  }
+  .jumbotron p {
+    line-height: 20px;
+  }
+}
+
+/* KHUSUS Content */
+@media (min-width: 321px) and (max-width: 375px) {
+  .jumbotron h1,
+  p {
+    width: 60%;
+  }
+  .jumbotron h1 {
+    line-height: 30px;
+  }
+  .jumbotron p {
+    line-height: 20px;
+  }
+}
+@media (min-width: 376px) and (max-width: 425px) {
+  .jumbotron h1,
+  p {
+    width: 55%;
+  }
+  .jumbotron h1 {
+    line-height: 30px;
+  }
+  .jumbotron p {
+    line-height: 20px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .jumbotron h1 {
+    position: relative;
+    top: 50px;
+    font-size: 35px;
+    font-weight: 100 !important;
+  }
+  .jumbotron p {
+    position: relative;
+    top: 50px;
+    font-size: 16px;
+    font-weight: 400 !important;
+  }
+  .jumbotron button {
+    position: relative;
+    top: 50px;
+  }
+  .jumbotron:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 150% !important;
+    background: linear-gradient(
+      to top,
+      rgb(48, 70, 70),
+      transparent
+    ) !important;
+    position: absolute;
+    bottom: 0;
+  }
+  .jumbotron {
+    height: 470px !important;
+  }
+  .jumbotron h1 {
+    line-height: 30px;
+  }
+  .jumbotron p {
+    line-height: 20px;
+  }
+  .jumbotron h1,
+  p {
+    width: 50%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .jumbotron {
+    margin-top: -86px;
+  }
+  .jumbotron h1 {
+    position: relative;
+    top: 150px;
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 10 !important;
+    line-height: 35px;
+  }
+  .jumbotron p {
+    position: relative;
+    top: 150px;
+    font-size: 16px;
+    font-weight: 100 !important;
+    line-height: 26px;
+  }
+  .jumbotron button {
+    position: relative;
+    top: 150px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .jumbotron {
+    margin-top: -86px;
+  }
+  .jumbotron h1 {
+    position: relative;
+    top: 150px;
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 10 !important;
+    line-height: 35px;
+  }
+  .jumbotron p {
+    position: relative;
+    top: 150px;
+    font-size: 16px;
+    font-weight: 100 !important;
+    line-height: 26px;
+  }
+  .jumbotron button {
+    position: relative;
+    top: 150px;
+  }
+}
+
+/* Semua Version */
+
+.jumbotron {
+  background-image: url(../../../Image/backgrond.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 640px;
+  position: relative;
+}
+.jumbotron:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  /* background: -webkit-linear-gradient(bottom,rgb(190, 187, 187), transparent); */
+  background: linear-gradient(to top, rgb(80, 97, 97), transparent);
+  position: absolute;
+  bottom: 0;
+}
+.jumbotron h1,
+p,
+button {
+  font-family: "Viga", sans-serif;
+}
+.jumbotron h1 {
+  color: rgb(212, 205, 205);
+}
+.jumbotron p {
+  color: rgb(214, 207, 207);
+}

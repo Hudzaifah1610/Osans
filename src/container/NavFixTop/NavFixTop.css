@@ -1,0 +1,9 @@
+.fixtop {
+  background: rgb(23, 118, 195);
+}
+.fixtop .navbar-brand {
+  color: rgb(255, 255, 255);
+}
+.fa-home {
+  margin-right: 20px;
+}
